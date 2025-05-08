@@ -1,0 +1,26 @@
+//dleclarando o array de imagens
+
+let imagens=[
+    'src/assets/imagem1.jpg',
+    'src/assents/imagem2.jpg',
+    'src/assents/imagem3.jpg',
+
+]
+
+//declarando as variaveis
+
+let index=0;
+let tempo=3000;
+
+//criando a função slideshow
+
+function slideshow(){
+    document.getElementById("image").src=imagens[index];
+    index++;
+
+    if(index == imagens.length){
+        index=0;
+    }
+    setTimeout("slideshow()",tempo)
+}
+slideshow();
