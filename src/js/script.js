@@ -2,8 +2,8 @@
 
 let imagens=[
     'src/assets/imagem1.jpg',
-    'src/assents/imagem2.jpg',
-    'src/assents/imagem3.jpg',
+    'src/assets/imagem2.jpg',
+    'src/assets/imagem3.jpg',
 
 ]
 
